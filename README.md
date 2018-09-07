@@ -5,6 +5,7 @@ My [sivers.org](https://sivers.org/) site.
 
 © 2018 Derek Sivers +
 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
+It’s kept on [GitHub](https://github.com/sivers/sivers.org) as a public mirror, but it’s not collaborative, and I don’t check GitHub for pull requests.
 
 Questions or comments?
 Feel free to email me at [sivers.org/contact](https://sivers.org/contact)
@@ -31,7 +32,7 @@ Plain erb Ruby templates are in templates/
 
 Shared header and footer for the whole site.
 
-Much of it is just hard-coded HTML.  (After all these years, I think it's easier to write HTML than in meta-languages that hide the HTML.)
+Much of it is just hard-coded HTML.  (After all these years, I think it’s easier to write HTML than in meta-languages that hide the HTML.)
 
 
 
