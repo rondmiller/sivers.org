@@ -1,0 +1,21 @@
+<article>
+<header>
+	<h1><a href="/i">Interviews</a> → <%=h @title %></h1>
+	<p><%=h @subhead %></p>
+	<small>Date: <%= @month %></small>
+<% if @downloads.size > 0 %>
+	<h2>Download: <%= @downloads.join(' or ') %></h2>
+<% end %>
+<% if @link %>
+	<p>Link: <a href="<%= @link %>"><%=h @link %></a></p>
+<% end %>
+</header>
+<hr>
+
+<%= @body %>
+
+<footer>
+© <%= @year %> <a href="/">Derek Sivers</a>
+</footer>
+</article>
+

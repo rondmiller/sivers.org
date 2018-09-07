@@ -1,0 +1,18 @@
+<!-- How to Call Attention to Your Music -->
+
+<h1>How to Call Attention to Your Music</h1>
+
+<p>
+Sorry — I’m re-writing this book right now.
+</p><p>
+Give me your name and email address, and I’ll let you know when it’s back.
+</p>
+
+<form action="/download/ebook" method="post">
+<label for="name">Your Name</label>
+<input type="text" name="name" id="name" value=""/>
+<label for="email">Your Email <span class="small">(kept private! never shared.)</span></label>
+<input type="email" name="email" id="email" value=""/>
+<input type="submit" name="submit" value="OK - send it!" />
+</form>
+

@@ -1,0 +1,102 @@
+<header>
+	<h1>Books I’ve read</h1>
+	<p>Tiny summary but <strong>detailed notes for each</strong>. Use the ISBN number to find it from your local library or anywhere else. <strong>This page will constantly update as I read more</strong>, so bookmark it if you want to check back in a few months.</p>
+</header>
+<p id="sorters">Sorted with <strong>my top recommendations up top</strong>. Sort by
+	<a href="/book?sort=title" id="sort-title">title</a>,
+	<a href="/book?sort=date" id="sort-date">newest</a>, or
+	<a href="/book?sort=rating" id="sort-rating">best</a>.
+</p><p>
+	And <strong>please read <a href="/bfaq">this FAQ page</a> about these notes</strong>, if you have any questions.
+	You can also <a href="/contact">email me</a>.
+</p>
+<form action="https://duckduckgo.com/" method="get" class="inlineform">
+	<label for="q">Search these books:</label>
+	<input type="text" name="q" value="">
+	<input type="hidden" name="sites" value="sivers.org/book">
+	<input type="hidden" name="ia" value="web">
+	<input type="submit" value="search">
+</form>
+<hr>
+
+<section id="allbooks">
+<% @books.each do |b| %>
+	<div class="abook" data-rating="<%= b[:rating] %>" data-title="<%= b[:title] %>" data-date="<%= b[:date] %>">
+	<figure><a href="/book/<%= b[:uri] %>"><img src="/images/<%= b[:uri] %>.gif" alt="<%= b[:title] %>"></a></figure>
+	<h2><a href="/book/<%= b[:uri] %>"><%= b[:title] %></a></h2>
+	<small>Date read: <%= b[:date] %>. How strongly I recommend it: <strong><%= b[:rating] %></strong>/10</small>
+	<p><%= b[:summary] %></p>
+	<p><strong><a href="/book/<%= b[:uri] %>">Read my notes</a></strong>, or go to the <a href="http://www.amazon.com/dp/<%= b[:isbn] %>?tag=sivers-20">Amazon page</a> for details and reviews.</p>
+	</div>
+<% end %>
+</section>
+
+<script>
+function getBooks() {
+	var books = [];
+	var nl = document.querySelectorAll('div.abook');
+	var len = nl.length;
+	for (var i = 0; i < len; i++) {
+		books[i] = nl[i];
+	}
+	return books;
+}
+
+function by(propName) {
+	return function(obj1, obj2) {
+		var v1 = obj1.getAttribute('data-' + propName);
+		var v2 = obj2.getAttribute('data-' + propName);
+		if (propName === 'rating') {
+			v1 = parseInt(v1);
+			v2 = parseInt(v2);
+		} else if (propName === 'title') {
+			/* because sorted high-to-low by default, flip for title */
+			var tmp = v2;
+			v2 = v1;
+			v1 = tmp;
+		}
+		if (v1 > v2) { return -1; }
+		else if (v1 < v2) { return 1; }
+		else { return 0; }
+	}
+}
+
+function showBooks(books) {
+	var len = books.length, nu = document.createElement('section');
+	nu.id = 'allbooks';
+	for(var i = 0; i < len; i++) {
+		nu.appendChild(books[i]);
+	}
+	document.getElementById('content').replaceChild(nu, document.getElementById('allbooks'));
+}
+
+function changeIfMatch(reg, str) {
+	var matches = reg.exec(str);
+	if(matches) {
+		var books = getBooks();
+		books.sort(by(matches[1]));
+		showBooks(books);
+	}
+}
+
+function sortBooks(event) {
+	if(event.preventDefault) {
+		event.preventDefault();
+	} else {
+		event.returnValue = false;
+	}
+	var target = event.target || window.event.srcElement;
+	changeIfMatch(/^sort-(rating|title|date)$/, target.id);
+}
+
+if(location.search) {
+	changeIfMatch(/\?sort=(rating|title|date)$/, location.search);
+}
+
+var sorters = document.getElementById('sorters');
+if(sorters.addEventListener) {
+	sorters.addEventListener('click', sortBooks, false);
+} else {
+	sorters.attachEvent('onclick', sortBooks);
+}
+</script>

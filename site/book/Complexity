@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Complexity: A Guided Tour - by Melanie Mitchell | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: Great for what it is. I'm embarrassed to admit most of it went over my head. I'm not interested enough in the subject to give it my full concentration. I might read it again some day when it's more applicable to my life.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:Georgia, serif;font-size:20px;line-height:30px;color:#000}small,.small,footer{font-size:0.8em;color:#666}h1,h2,h3,small,.small,footer{font-family:Tahoma, Verdana, sans-serif;font-weight:normal}h1,h2,h3,label{line-height:1em}h1{font-size:2em}h1,h2,h3,cite{color:#800}h2,h3{margin-top:2em}a{text-decoration:none;color:#20b;overflow-wrap:break-word;word-wrap:break-word}a:visited{color:#606}a:hover{text-decoration:underline}dt{font-weight:bold;margin-top:2em}li,dd{margin-bottom:1em}figure{margin:0}blockquote{margin:0}pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}code{font-size:0.8em}img,iframe{max-width:100%;display:block}img{height:auto}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;max-width:99%}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select:focus,textarea:focus{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}section{margin-bottom:4em}section#masthead{margin-bottom:1em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0;font-family:Georgia, serif;font-weight:normal}section#masthead h1 a{text-decoration:underline;color:#800}body#home div#content h2 small{margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}body#home div#content section#photos img{display:inline}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1{margin-bottom:0}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments li p{overflow-wrap:break-word;word-wrap:break-word}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#onebook figure img,body#booklist figure img{float:left;margin-right:2em}body#booklist div.abook{margin:0 0 8em 0}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}
+</style>
+<meta property="og:title" content="Complexity: A Guided Tour - by Melanie Mitchell | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/book/Complexity">
+<meta property="og:image" content="https://sivers.org/images/Complexity.gif">
+<meta property="og:description" content="Great for what it is. I'm embarrassed to admit most of it went over my head. I'm not interested enough in the subject to give it my full concentration. I might read it again some day when it's more applicable to my life.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Complexity: A Guided Tour - by Melanie Mitchell | Derek Sivers">
+<meta name="twitter:description" content="Great for what it is. I'm embarrassed to admit most of it went over my head. I'm not interested enough in the subject to give it my full concentration. I might read it again some day when it's more applicable to my life.">
+<meta name="twitter:image" content="https://sivers.org/images/Complexity.gif">
+</head>
+<body id="onebook">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers">Derek Sivers</a></h1>
+</section>
+<div id="content">
+
+<header>
+<figure><a href="http://www.amazon.com/dp/0199798109?tag=sivers-20"><img src="/images/Complexity.gif" alt="Complexity: A Guided Tour - by Melanie Mitchell"></a></figure>
+<h1>Complexity: A Guided Tour - by Melanie Mitchell</h1>
+<small>
+ISBN: 0199798109<br>
+Date read: 2014-09-01<br>
+How strongly I recommend it: <strong>2</strong>/10<br>
+<strong>(See <a href="/book">my list of 200+ books</a>, for more.)</strong>
+</small>
+<p><strong>Go to the <a href="http://www.amazon.com/dp/0199798109?tag=sivers-20">Amazon page</a></strong> for details and reviews.</p>
+</header>
+
+<p id="booksummary">Great for what it is. I'm embarrassed to admit most of it went over my head. I'm not interested enough in the subject to give it my full concentration. I might read it again some day when it's more applicable to my life.</p>
+<h2>my notes</h2>
+<p id="booknotes">
+A definition of the term complex system: a system in which large networks of components with no central control and simple rules of operation give rise to complex collective behavior, sophisticated information processing, and adaptation via learning or evolution.<br>
+<br>
+An alternative definition of a complex system: a system that exhibits nontrivial emergent and self-organizing behaviors.<br>
+<br>
+It’s the best possible time to be alive, when almost everything you thought you knew is wrong.<br>
+<br>
+Aristotle believed that earthly objects move in different ways depending on what they are made of.<br>
+<br>
+His scientific method was to let logic and common sense direct theory; the importance of testing the resulting theories by experiments is a more modern notion.<br>
+<br>
+Calculus, the branch of mathematics that describes motion and change.<br>
+<br>
+Physicists call the general study of motion mechanics.  Mechanics is divided into two areas: kinematics, which describes how things move, and dynamics, which explains why things obey the laws of kinematics.<br>
+<br>
+A small error in initial conditions produce an enormous error in the final phenomenon.<br>
+<br>
+Prediction becomes impossible….<br>
+<br>
+Linearity is a reductionist’s dream, and nonlinearity can sometimes be a reductionist’s nightmare.<br>
+<br>
+The logistic map, which is perhaps the most famous equation in the science of dynamical systems and chaos.  The logistic map is an extremely simple equation and is completely deterministic: every xt maps onto one and only one value of xt+1. And yet the chaotic trajectories obtained from this map, at certain values of R, look very random—enough so that the logistic map has been used as a basis for generating pseudo-random numbers on a computer.<br>
+<br>
+Even if we have a simple model in which all the parameters are determined exactly, long-term prediction is nevertheless impossible.<br>
+<br>
+As R was increased from 2.0 to 4.0, iterating the logistic map for a given value of R first yielded a fixed point, then a period-two oscillation, then period four, then eight, and so on, until chaos was reached. In dynamical systems theory, each of these abrupt period doublings is called a bifurcation. This succession of bifurcations culminating in chaos has been called the “period doubling route to chaos.”  4.6692016, now called Feigenbaum’s constant.<br>
+<br>
+The discovery and understanding of chaos has produced a rethinking of many core tenets of science.<br>
+<br>
+Seemingly random behavior can emerge from deterministic systems, with no external source of randomness.<br>
+<br>
+Physicists have a specific meaning of “work” done by an object: the amount of force applied to the object multiplied by the distance traveled by the object in the direction that force was applied.<br>
+<br>
+Laws of thermodynamics apply to “isolated systems”—ones that do not exchange energy with any outside entity. First law: Energy is conserved. The total amount of energy in the universe is constant. Energy can be transformed from one form to another.  However, energy can never be created or destroyed.<br>
+<br>
+Second law: Entropy always increases until it reaches a maximum value.  It will never decrease on its own unless an outside agent works to decrease it.  The second law is the only fundamental law of physics that distinguishes between past and future. All other laws are reversible in time.<br>
+<br>
+Shannon’s definition of information involves a source that sends messages to a receiver.<br>
+<br>
+“Average amount of surprise” - in which “surprise” means something like the “degree of uncertainty” the receiver had about what the source would send next.<br>
+<br>
+Kurt Gödel: incompleteness theorem showed that if arithmetic is consistent, then there are true statements in arithmetic that cannot be proved: “This statement is not provable.”<br>
+<br>
+Let’s call this statement “Statement A.” Now, suppose Statement A could indeed be proved. But then it would be false (since it states that it cannot be proved). That would mean a false statement could be proved—arithmetic would be inconsistent. Okay, let’s assume the opposite, that Statement A cannot be proved. That would mean that Statement A is true (because it asserts that it cannot be proved), but then there is a true statement that cannot be proved—arithmetic would be incomplete. Ergo, arithmetic is either inconsistent or incomplete.<br>
+<br>
+Turing’s first goal was to make very concrete this notion of definite procedure. The idea is that, given a particular problem to solve, you can construct a definite procedure for solving it by designing a Turing machine that solves it. Turing machines were put forth as the definition of “definite procedure,”<br>
+<br>
+Turing’s big result—there can be no definite procedure for solving the Halting problem. The Halting problem is an example that proves that the answer to the Entscheidungsproblem is “no”; not every mathematical statement has a definite procedure that can decide its truth or falsity.<br>
+<br>
+Darwin’s theory of evolution: Philosopher Daniel Dennett: If I were to give an award for the single best idea anyone has ever had, I’d give it to Darwin, ahead of Newton and Einstein and everyone else. In a single stroke, the idea of evolution by natural selection unifies the realm of life, meaning, and purpose with the realm of space and time, cause and effect, mechanism and physical law.<br>
+<br>
+Entropy decreases (living systems become more organized, seemingly more designed) as a result of the work done by natural selection.<br>
+<br>
+Since this is a simple problem, it would probably be pretty easy for a human to figure out a good strategy for Robby to follow. However, the point of genetic algorithms is that humans, being intrinsically lazy, don’t have to figure out anything; we just let computer evolution figure it out for us. Let’s use a genetic algorithm to evolve a good strategy for Robby.<br>
+<br>
+I knew that my strategy wasn’t perfect, but this little trick never occurred to me. Evolution can be pretty clever. GAs often come up with things we humans don’t consider.<br>
+<br>
+</p>
+
+
+</div>
+</body>
+</html>

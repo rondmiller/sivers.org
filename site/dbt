@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Why you need a database | Derek Sivers</title>
+<meta name="description" content="Derek Sivers: A database is just an organized collection of information.  You could have a database of your music or your books.  But I’m going to talk about a database of all the people you know.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="alternate" type="application/atom+xml" title="Derek Sivers" href="/en.atom">
+<link rel="prev" href="https://sivers.org/mn1">
+<link rel="next" href="https://sivers.org/city">
+<style>
+body{max-width:40em;margin:0 auto;padding:5px;font-family:Georgia, serif;font-size:20px;line-height:30px;color:#000}small,.small,footer{font-size:0.8em;color:#666}h1,h2,h3,small,.small,footer{font-family:Tahoma, Verdana, sans-serif;font-weight:normal}h1,h2,h3,label{line-height:1em}h1{font-size:2em}h1,h2,h3,cite{color:#800}h2,h3{margin-top:2em}a{text-decoration:none;color:#20b;overflow-wrap:break-word;word-wrap:break-word}a:visited{color:#606}a:hover{text-decoration:underline}dt{font-weight:bold;margin-top:2em}li,dd{margin-bottom:1em}figure{margin:0}blockquote{margin:0}pre{color:#fff;background-color:#333;padding:0.25em;line-height:1}code{font-size:0.8em}img,iframe{max-width:100%;display:block}img{height:auto}input[type="text"],input[type="password"],input[type="email"],select,textarea{padding:0.5em 0.6em;display:block;border:1px solid #ccc;box-shadow:inset 0 1px 3px #ddd;border-radius:4px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;max-width:99%}input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,select:focus,textarea:focus{outline:0;border-color:#129FEA}input[type="submit"]{padding:5px;font-size:1em;background:#800;color:#fff;font-weight:bold}form.inlineform input{display:inline}select{height:2.25em;border:1px solid #ccc;background-color:#fff}label{margin:0.5em 0 0.2em}section{margin-bottom:4em}section#masthead{margin-bottom:1em}@media screen and (max-width: 400px){section#masthead h1{font-size:2em}}@media screen and (min-width: 400px){section#masthead h1{font-size:3em}}section#masthead h1{margin:0;font-family:Georgia, serif;font-weight:normal}section#masthead h1 a{text-decoration:underline;color:#800}body#home div#content h2 small{margin-left:2em}body#home div#content ul{padding-left:0}body#home div#content ul li{list-style-type:none}body#home div#content section#photos img{display:inline}div.blogparent{font-size:1.2em;font-weight:bold;margin:1em 0 -0.5em 0}body#oneblog div#content article header h1{margin-bottom:0}div#comments ol{padding-left:1em}div#comments li{margin-bottom:2em}div#comments li p{overflow-wrap:break-word;word-wrap:break-word}div#comments span.response{display:block;margin-left:1em;padding:4px;background-color:#ffc;border:1px solid #000;font-family:sans-serif;font-size:14px}body#onebook figure img,body#booklist figure img{float:left;margin-right:2em}body#booklist div.abook{margin:0 0 8em 0}div.presentation_summary{margin-bottom:6em}@media screen and (max-width: 400px){div.presentation_summary img{display:block}}@media screen and (min-width: 400px){div.presentation_summary img{float:right}}
+</style>
+<meta property="og:title" content="Why you need a database | Derek Sivers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sivers.org/dbt">
+<meta property="og:image" content="https://sivers.org/images/database-quantity.gif">
+<meta property="og:description" content="A database is just an organized collection of information.  You could have a database of your music or your books.  But I’m going to talk about a database of all the people you know.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sivers">
+<meta name="twitter:creator" content="@sivers">
+<meta name="twitter:title" content="Why you need a database | Derek Sivers">
+<meta name="twitter:description" content="A database is just an organized collection of information.  You could have a database of your music or your books.  But I’m going to talk about a database of all the people you know.">
+<meta name="twitter:image" content="https://sivers.org/images/database-quantity.gif">
+</head>
+<body id="oneblog">
+<section id="masthead">
+<h1><a href="/" title="Derek Sivers">Derek Sivers</a></h1>
+</section>
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent">from the book “<a href="/m" rel="tag">Your Music and People</a>”:</div>
+<h1>Why you need a database</h1>
+<small>2018-02-09</small>
+</header>
+
+<p>
+	A database is just an organized collection of information.
+	You could have a database of your music or your books.
+	But I’m going to talk about a database of all the people you know.
+</p><p>
+	Your email app is a kind of database.
+	It has an address book of everyone you’ve emailed, and a history of your emails with each person.
+	So you’ve already done half of what I’m going to describe here.
+</p><p>
+	But I’m going to recommend you go further than that, and also keep track of:
+</p><ul><li>
+	your private notes about people (“served in the army, loves talking politics”)
+</li><li>
+	tags to help you find people (“drummer, programmer, agent”)
+</li><li>
+	physical location (“London, England”)
+</li><li>
+	when you should contact this person next (“3 weeks from today”)
+</li></ul><p>
+	Once you have this information, you can easily find every agent you know in London, and email them about a gig.
+</p><p>
+	Because the other best feature of a database is that it can personalize your communication.
+	Instead of blasting out a message like “Hey everyone. How are you?”, your database will send out personalized emails like, “Hey James. How are you?” — “Hey Sarah. How are you?”.
+	Not only does it get their attention better, but it’s just more polite.
+</p><p>
+	It will keep a history of your communication with everyone.
+	This helps when you hear from someone for the first time in years.
+	It can remind you who they are, and show you the last time you spoke.
+	It also helps you do things like find just the people you haven’t heard from in over a year.
+	You can set calendar reminders, so it can remind you to follow-up with someone later. 
+</p><p>
+	As for which database to use, I have three recommendations:
+</p><ol><li>
+<a href="https://www.cloze.com/">Cloze</a>.
+	Go to <a href="https://www.cloze.com/">Cloze.com</a>.
+	Link it with your existing inboxes and social media accounts, and it will pull in the information of everyone you’ve got in there already.
+	It’s brilliant and full of features.
+</li><li>
+<a href="https://www.monicahq.com/">Monica</a>.
+	Go to <a href="https://www.monicahq.com/">MonicaHQ.com</a>.
+	It’s the most personal and people-focused, encouraging you to keep track of everything you know about everyone.
+	It’s also open source and free to install on your own server.
+</li><li>
+	I ended up programming my own database software, which I plan to share for free some day.
+	Maybe by the time you read this, it will be ready.
+	Just email me to ask.
+</li></ol><p>
+<strong>
+	Using a database is one of the most powerful things you can do for your career.
+	Please don’t put it off.
+</strong>
+	It’s not as complicated as it sounds.
+	The sooner you begin, the better.
+</p>
+<img alt="" src="/images/database-quantity.gif">
+
+<footer>
+© 2018 <a href="https://sivers.org/">Derek Sivers</a>.
+(
+	« <a href="/mn1" accesskey="p" rel="prev">previous</a>
+	||
+	<a href="/city" accesskey="n" rel="next">next</a> »
+)
+<h1>
+	Copy &amp; share:
+	<a href="https://sivers.org/dbt">sivers.org/dbt</a>
+</h1>
+</footer>
+</article>
+<div id="comments"></div>
+<script type="text/javascript" src="/js/comments.js"></script>
+
+</div>
+</body>
+</html>

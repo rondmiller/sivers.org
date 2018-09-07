@@ -1,0 +1,2 @@
+vim blog/`head -1 TODO`
+vim TODO

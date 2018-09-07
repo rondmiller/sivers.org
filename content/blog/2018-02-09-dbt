@@ -1,0 +1,56 @@
+<!-- Why you need a database -->
+<p>
+	A database is just an organized collection of information.
+	You could have a database of your music or your books.
+	But I’m going to talk about a database of all the people you know.
+</p><p>
+	Your email app is a kind of database.
+	It has an address book of everyone you’ve emailed, and a history of your emails with each person.
+	So you’ve already done half of what I’m going to describe here.
+</p><p>
+	But I’m going to recommend you go further than that, and also keep track of:
+</p><ul><li>
+	your private notes about people (“served in the army, loves talking politics”)
+</li><li>
+	tags to help you find people (“drummer, programmer, agent”)
+</li><li>
+	physical location (“London, England”)
+</li><li>
+	when you should contact this person next (“3 weeks from today”)
+</li></ul><p>
+	Once you have this information, you can easily find every agent you know in London, and email them about a gig.
+</p><p>
+	Because the other best feature of a database is that it can personalize your communication.
+	Instead of blasting out a message like “Hey everyone. How are you?”, your database will send out personalized emails like, “Hey James. How are you?” — “Hey Sarah. How are you?”.
+	Not only does it get their attention better, but it’s just more polite.
+</p><p>
+	It will keep a history of your communication with everyone.
+	This helps when you hear from someone for the first time in years.
+	It can remind you who they are, and show you the last time you spoke.
+	It also helps you do things like find just the people you haven’t heard from in over a year.
+	You can set calendar reminders, so it can remind you to follow-up with someone later. 
+</p><p>
+	As for which database to use, I have three recommendations:
+</p><ol><li>
+<a href="https://www.cloze.com/">Cloze</a>.
+	Go to <a href="https://www.cloze.com/">Cloze.com</a>.
+	Link it with your existing inboxes and social media accounts, and it will pull in the information of everyone you’ve got in there already.
+	It’s brilliant and full of features.
+</li><li>
+<a href="https://www.monicahq.com/">Monica</a>.
+	Go to <a href="https://www.monicahq.com/">MonicaHQ.com</a>.
+	It’s the most personal and people-focused, encouraging you to keep track of everything you know about everyone.
+	It’s also open source and free to install on your own server.
+</li><li>
+	I ended up programming my own database software, which I plan to share for free some day.
+	Maybe by the time you read this, it will be ready.
+	Just email me to ask.
+</li></ol><p>
+<strong>
+	Using a database is one of the most powerful things you can do for your career.
+	Please don’t put it off.
+</strong>
+	It’s not as complicated as it sounds.
+	The sooner you begin, the better.
+</p>
+<img alt="" src="/images/database-quantity.gif">
