@@ -168,6 +168,8 @@ If you want the announcements and opportunities that I never post publicly, get 
 <section id="tweets">
 <h2>Tweets <small><a href="/tweets">see all tweets</a></small></h2>
 <dl id="tweetlist">
+	<dt class="small">September 8</dt>
+	<dd>The code to my sites and database are now mirrored on GitHub: <a href="https://github.com/sivers">https://github.com/sivers</a>  Use anything you like.</dd>
 	<dt class="small">August 6</dt>
 	<dd>You don&#39;t need confidence, just contribution. <a href="https://sivers.org/contrib">https://sivers.org/contrib</a></dd>
 	<dt class="small">August 2</dt>
@@ -178,8 +180,6 @@ If you want the announcements and opportunities that I never post publicly, get 
 	<dd>Imagining a band: John Bonham, Jaco Pastorius, Bill Evans, Michael Hedges, and Björk, produced by Brian Eno.</dd>
 	<dt class="small">June 7</dt>
 	<dd>Unlearning : <a href="https://sivers.org/unlearning">https://sivers.org/unlearning</a></dd>
-	<dt class="small">April 17</dt>
-	<dd>New books added to my book notes collection, plus a search box. Total of 250 books now. See new FAQ: <a href="https://sivers.org/bfaq">https://sivers.org/bfaq</a></dd>
 </dl>
 <p>
 	(<a  href="https://micro.blog/sivers">micro.blog/sivers</a> is a nice mirror of my posts.)
