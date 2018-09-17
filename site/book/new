@@ -49,6 +49,13 @@ body{max-width:40em;margin:0 auto;padding:5px;font-family:Georgia, serif;font-si
 <hr>
 
 <section id="allbooks">
+	<div class="abook" data-rating="6" data-title="Surely You're Joking, Mr. Feynman! - by Richard Feynman" data-date="2018-08-25">
+	<figure><a href="/book/Feynman"><img src="/images/Feynman.gif" alt="Surely You're Joking, Mr. Feynman! - by Richard Feynman"></a></figure>
+	<h2><a href="/book/Feynman">Surely You're Joking, Mr. Feynman! - by Richard Feynman</a></h2>
+	<small>Date read: 2018-08-25. How strongly I recommend it: <strong>6</strong>/10</small>
+	<p>Autobiographical stories. Fun anecdotes. But they give a great glimpse into an approach to life: Doubt, challenge, and most importantly: test everything. Experiment. See what happens in the real-world, not in-theory. Applied not just to science, but how ants find food, talking to strangers in bars, sketching portraits, and playing a shaker in a Brazilian band.</p>
+	<p><strong><a href="/book/Feynman">Read my notes</a></strong>, or go to the <a href="http://www.amazon.com/dp/0393355624?tag=sivers-20">Amazon page</a> for details and reviews.</p>
+	</div>
 	<div class="abook" data-rating="9" data-title="The Courage to Be Disliked - by Ichiro Kishimi and Fumitake Koga" data-date="2018-07-25">
 	<figure><a href="/book/Disliked"><img src="/images/Disliked.gif" alt="The Courage to Be Disliked - by Ichiro Kishimi and Fumitake Koga"></a></figure>
 	<h2><a href="/book/Disliked">The Courage to Be Disliked - by Ichiro Kishimi and Fumitake Koga</a></h2>
